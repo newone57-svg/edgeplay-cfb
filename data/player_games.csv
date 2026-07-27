@@ -1,0 +1,257 @@
+game_id,date,division,team,opponent,home_away,player,jersey,roles,pass_comp,pass_att,pass_yards,pass_avg,pass_td,pass_int,qbr,rush_att,rush_yards,rush_avg,rush_td,rush_long,rec,rec_yards,rec_avg,rec_td,rec_long,fum,fum_lost,fum_rec,tackles_tot,tackles_solo,sacks,tfl,pass_defended,qb_hits,def_td,int_made,int_yards,int_td,kr_no,kr_yards,kr_avg,kr_long,kr_td,pr_no,pr_yards,pr_avg,pr_long,pr_td,fg_made,fg_att,fg_pct,fg_long,xp_made,xp_att,kick_pts,punts,punt_yards,punt_avg,punt_tb,punt_in20,punt_long,pulled_at
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Miller Moss,7,PASS/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Isaac Brown,1,FUM/REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Deuce Adams,13,RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Keyjuan Brown,22,REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,David Chapeau,93,P/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Caullin Lacy,5,DEF/PR/REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away, Team,,RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Chris Bell,0,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Dacari Collins,3,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Nate Kurisky,85,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,TreyShun Hurry,2,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,TJ Quinn,34,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,D'Angelo Hutchinson,21,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Jordan Guerad,99,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Tayon Holloway,25,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,JoJo Evans Jr.,27,DEF/INT,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Rene Konga,90,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Antonio Watts,9,DEF/INT,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Jabari Mack,4,DEF/INT,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,T.J. Capers,11,DEF/INT,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Clev Lubin,50,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Kalib Perry,12,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Corey Gordon,24,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Wesley Bailey,23,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Justin Agu,13,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Justin Beadles,19,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Denzel Lowry,45,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,AJ Green,17,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Jerry Lawson,95,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Braxton Jennings,46,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Cooper Ranvier,36,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Louisville Cardinals,Miami Hurricanes,away,Carter Schwartz,39,P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Carson Beck,11,PASS/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Mark Fletcher Jr.,4,RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Jordan Lyle,2,FUM/REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Malachi Toney,10,DEF/REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,CharMar Brown,6,REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home, Team,,RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,CJ Daniels,7,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Keelan Marion,0,KR/REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Alex Bauman,87,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Elija Lofton,9,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Zechariah Poyser,7,DEF/FUM,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Keionte Scott,0,DEF,,,,,,,,,,,,,,,,,,,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Mohamed Toure,1,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Wesley Bissainthe,31,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Akheem Mesidor,3,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Romanas Frederique Jr.,29,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Ahmad Moten Sr.,99,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,David Blay Jr.,11,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Jakobe Thomas,8,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Xavier Lucas,6,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Armondo Blount,18,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Chase Smith,41,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Popo Aguirre,10,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Rueben Bain Jr.,4,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Damari Brown,2,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Ethan O'Connor,24,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Adam Booker,46,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Bryce Fitzgerald,13,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Carter Davis,38,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401754564,2025-10-17,FBS,Miami Hurricanes,Louisville Cardinals,home,Dylan Joyce,94,P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Dylan Raiola,15,PASS/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Emmett Johnson,21,REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Isaiah Mozee,22,RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Luke Lindenmeyer,44,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Quinn Clark,89,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Nyziah Hunter,13,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Cortez Mills Jr.,19,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Jacory Barney Jr.,17,PR/REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Javin Wright,33,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Marques Watson-Trent,26,DEF,,,,,,,,,,,,,,,,,,,,,,,0.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,DeShon Singleton,8,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Keona Davis,97,DEF,,,,,,,,,,,,,,,,,,,,,,,0.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Rex Guthrie,21,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Ceyair Wright,15,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Williams Nwaneri,96,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Donovan Jones,37,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Elijah Jeudy,16,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Dasan McCullough,22,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Jamir Conn,13,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Marques Buford Jr.,3,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Cameron Lenhardt,11,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Kevin Gallic,46,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Gabe Moore,95,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Jeremiah Charles,25,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Andrew Marshall,10,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Kade Pietrzak,73,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Dylan Rogers,52,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Kenneth Williams,25,KR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Kyle Cunanan,91,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Nebraska Cornhuskers,Minnesota Golden Gophers,away,Archie Wilson,83,P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Drake Lindsey,5,PASS/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Darius Taylor,1,REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Fame Ijeboi,3,RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Cam Davis,23,KR/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Jalen Smith,8,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Le'Meke Brockington,0,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Malachi Coleman,16,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Jameson Geers,86,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Logan Loya,17,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Javon Tracy,11,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Drew Biber,87,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home, Team,,FUM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Za'Quan Bryan,4,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Karter Menz,11,DEF,,,,,,,,,,,,,,,,,,,,,,,2.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Maverick Baranowski,6,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Devon Williams,9,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Anthony Smith,0,DEF,,,,,,,,,,,,,,,,,,,,,,,2.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Kerry Brown,14,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Rushawn Lawrence,16,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Jaxon Howard,1,DEF,,,,,,,,,,,,,,,,,,,,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Koi Perich,3,DEF/KR/PR,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Jai'Onte' McMillan,24,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Deven Eastern,91,DEF,,,,,,,,,,,,,,,,,,,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Matt Kingsbury,49,DEF,,,,,,,,,,,,,,,,,,,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Derik LeCaptain,35,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Darius Green,12,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Aidan Gousby,7,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Mason Carrier,48,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Simon Seidl,27,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Jaylen Bowden,5,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Jalen Logan-Redding,97,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Emmanuel Karmo,2,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Brady Denaburg,92,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401752872,2025-10-17,FBS,Minnesota Golden Gophers,Nebraska Cornhuskers,home,Tom Weston,42,P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:58
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Walker Eget,5,DEF/FUM/PASS/RUSH,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away, Team,,PASS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Steve Chavez-Soto,15,REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Lamar Radcliffe,2,REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Leland Smith,1,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Kyri Shoels,4,FUM/REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Matthew Coleman,14,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Danny Scudero,10,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Cooper Hoch,13,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Jackson Canaan,85,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Jaylen Thomas,29,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Taniela Latu,4,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Jordan Pollard,1,DEF,,,,,,,,,,,,,,,,,,,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Vili Taufatofua,45,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Jalen Bainer,15,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Quincy Likio,91,DEF,,,,,,,,,,,,,,,,,,,,,,,0.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Noah McNeal-Franklin,9,DEF,,,,,,,,,,,,,,,,,,,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Gafa Faga,50,DEF,,,,,,,,,,,,,,,,,,,,,,,0.5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Jalen Apalit-Williams,7,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Solomone Langi,51,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Ethan Powell,26,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Larry Turner-Gooden,3,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Caleb Presley,0,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Justin Stearns,57,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Isiah Revis,20,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Jireh Moe,90,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Nate Lewis,99,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Noa Siaosi,92,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Jase Nix,19,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Nassir Pitters,38,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Jahari Johnson,0,KR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Denis Lynch,48,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Mathias Brown,99,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,San José State Spartans,Utah State Aggies,away,Trent Carrizosa,49,P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Bryson Barnes,16,PASS/REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Anthony Garcia,10,PASS/REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Miles Davis,2,KR/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Javen Jacobs,8,REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Brady Boyd,5,REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Noah White,23,RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Braden Pegan,11,REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Broc Lane,87,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Josh Sterzer,83,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Bronson Olevao Jr.,14,DEF/FUM,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Brevin Hamblin,4,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,John Miller,20,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,D'Angelo Mayes,15,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Carson Tujague,28,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Bryson Taylor,11,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Ike Larsen,,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Mataira Brown,17,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Chris Joe,25,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Gabriel Iniguez Jr.,10,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Tyree Morris,9,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Noah Avinger,1,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Tevita Tuha,55,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Bo Maile,44,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Kahanu Davis,7,PR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Tanner Rinker,14,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401760396,2025-10-17,FBS,Utah State Aggies,San José State Spartans,home,Landon Rehkow,16,P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:58:59
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Gio Lopez,7,PASS/REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Benjamin Hall,28,REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Davion Gause,21,FUM/REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Demon June,12,RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Kobe Paysour,8,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Shanard Clower,85,FUM/REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Jordan Shipp,1,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Nathan Leacock,15,FUM/REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Connor Cox,18,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Chris Culliver,3,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Will Hardy,31,DEF/PR,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Khmori House,7,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Kaleb Cost,21,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Jaiden Patterson,18,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,D'Antre Robinson,6,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Andrew Simpson,2,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Leroy Jackson,91,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,CJ Mims,92,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Gavin Gibson,5,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Tyler Thompson,40,DEF,,,,,,,,,,,,,,,,,,,,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Greg Smith,12,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Isaiah Johnson,94,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Caleb Hood,4,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Malcolm Ziglar,3,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Smith Vilbert,8,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Mikai Gbayor,4,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Coleman Bryson,16,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Joseph Mupoyi,25,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Melkart Abou Jaoude,9,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Daniel Anderson,95,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Timir Hickman-Collins,54,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Austin Alexander,47,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Xavier Lewis,90,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Jaylen McGill,27,KR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Rece Verhoff,90,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,North Carolina Tar Heels,California Golden Bears,away,Tom Maginness,96,P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Jaron-Keawe Sagapolutele,3,FUM/PASS/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Devin Brown,13,PASS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Kendrick Raphael,1,REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,LJ Johnson Jr.,11,REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Jacob De Jesus,21,FUM/KR/PR/REC/RUSH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Jordan King,4,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Quaron Adams,18,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Mark Hamper,15,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Mason Mini,85,REC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Cam Sidney,20,DEF/FUM,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Brent Austin,4,DEF/FUM,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Dru Polidore Jr.,2,DEF/FUM,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Cade Uluave,0,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Luke Ferrelli,41,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Aidan Keanaaina,47,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Aiden Manutai,14,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Jayden Wayne,10,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Chris Victor,16,DEF,,,,,,,,,,,,,,,,,,,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,T.J. Bollers,88,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Hezekiah Masses,5,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Ja'ir Smith,6,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Jasiah Wagoner,8,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,TJ Bush Jr.,3,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Rino Monteforte,39,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Khamani Hudson,25,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Derek Wilkins,96,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Harrison Taggart,7,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Michael Luckhurst,16,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Anthony League,25,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Zae Smith,99,DEF,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Kyion Grayes,9,PR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Chase Meyer,91,K,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Michael Kern,9,P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00
+401754371,2025-10-17,FBS,California Golden Bears,North Carolina Tar Heels,home,Brook Honore Jr.,40,P,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2026-07-27T12:59:00

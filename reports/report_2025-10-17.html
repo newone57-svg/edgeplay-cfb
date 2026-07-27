@@ -1,0 +1,760 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>EdgePlay CFB Breakdown — 2025-10-17</title>
+<style>
+  @page { size: landscape; margin: .35in; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, sans-serif;
+         margin:0; padding:20px; color:#10203a; background:#fff; font-size:12px; }
+  a { color:inherit; text-decoration:none; }
+  .head { background:#0d1f3c; color:#fff; padding:16px 20px; border-radius:5px;
+           border-left:6px solid #c8a24a; }
+  .head h1 { margin:0; font-size:19px; letter-spacing:.5px; }
+  .head .sub { color:#c8a24a; font-size:12px; margin-top:3px; }
+  .kpis { display:flex; gap:12px; margin:16px 0; }
+  .kpi { flex:1; border:1px solid #dde3ec; border-top:3px solid #c8a24a;
+          padding:8px 12px; border-radius:4px; }
+  .kpi .n { font-size:20px; font-weight:700; color:#0d1f3c; }
+  .kpi .l { font-size:10px; text-transform:uppercase; color:#6b7789; letter-spacing:.6px; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:1px; color:#0d1f3c;
+        border-bottom:2px solid #c8a24a; padding-bottom:5px; margin:26px 0 10px; }
+  table { width:100%; border-collapse:collapse; }
+  .summary th { background:#0d1f3c; color:#fff; text-align:left; padding:7px 8px;
+                 font-size:10px; text-transform:uppercase; letter-spacing:.5px; }
+  .summary td { padding:6px 8px; border-bottom:1px solid #e7ecf3; }
+  .summary tr:nth-child(even) td { background:#f7f9fc; }
+  .gnum { font-weight:700; color:#c8a24a; font-size:10px; }
+  .flag { display:inline-block; background:#0d1f3c; color:#c8a24a; padding:2px 6px;
+           border-radius:3px; font-size:9px; margin:0 3px 2px 0; white-space:nowrap; }
+  .muted { color:#a8b2c1; }
+  .game { page-break-before:always; margin-top:26px; }
+  .game-head { background:#0d1f3c; color:#fff; padding:10px 14px; font-size:14px;
+                font-weight:700; border-left:5px solid #c8a24a; border-radius:4px; }
+  .gdiv { float:right; color:#c8a24a; font-size:10px; letter-spacing:1px; }
+  .teamstats { margin:10px 0 14px; font-size:11px; }
+  .teamstats th { background:#eef2f8; color:#41506b; padding:5px 6px; font-size:9px;
+                   text-transform:uppercase; border-bottom:1px solid #c8a24a; }
+  .teamstats td { padding:5px 6px; border-bottom:1px solid #e7ecf3; text-align:center; }
+  .teamstats .tl { text-align:left; font-weight:700; }
+  .cols { width:100%; border-collapse:separate; border-spacing:9px 0; }
+  .cols > tr > .side { width:50%; vertical-align:top; }
+  .side-head { background:#f2f5fa; border-left:4px solid #c8a24a; padding:6px 10px;
+                font-weight:700; font-size:12px; margin-bottom:6px; }
+  .score { float:right; color:#0d1f3c; }
+  .cat { margin-bottom:11px; }
+  .cat-title { font-size:10px; font-weight:700; text-transform:uppercase;
+                color:#0d1f3c; letter-spacing:.7px; margin-bottom:2px; }
+  .box { font-size:10.5px; }
+  .box th { background:#fafbfd; color:#6b7789; font-size:8.5px; padding:3px 4px;
+             text-align:center; border-bottom:1px solid #dde3ec; }
+  .box .pcol { text-align:left; width:44%; }
+  .box td { padding:3px 4px; text-align:center; border-bottom:1px solid #f0f3f8; }
+  .box .pname { text-align:left; font-weight:600; }
+  .jsy { color:#a8b2c1; font-weight:400; }
+  .box .tot td { background:#f7f9fc; font-weight:700; border-top:1px solid #c8a24a; }
+  .foot { margin-top:16px; font-size:10px; color:#6b7789;
+           border-top:1px solid #dde3ec; padding-top:8px; }
+</style></head><body>
+<div class="head">
+  <h1>EDGEPLAY ANALYTICS — NCAA FOOTBALL BREAKDOWN</h1>
+  <div class="sub">Games completed 2025-10-17 &nbsp;·&nbsp; FBS &nbsp;·&nbsp; full box scores</div>
+</div>
+<div class="kpis">
+  <div class="kpi"><div class="n">4</div><div class="l">FBS Games</div></div>
+  <div class="kpi"><div class="n">42.2</div><div class="l">Avg Total</div></div>
+  <div class="kpi"><div class="n">7.2</div><div class="l">Avg Margin</div></div>
+  <div class="kpi"><div class="n">9</div><div class="l">Turnovers</div></div>
+  <div class="kpi"><div class="n">256</div><div class="l">Player Lines</div></div>
+</div>
+<h2>FBS Slate — tap any game to jump to its box score</h2>
+<table class="summary">
+  <tr><th>#</th><th>Result</th><th>Total</th><th>Yards W/L</th><th>Y/P W/L</th>
+      <th>TO W/L</th><th>Flags</th></tr>
+  
+        <tr><td class="gnum">1</td>
+        <td><a href="#g1"><b>Utah State Aggies</b> 30,
+            San José State Spartans 25</a></td>
+        <td>55</td>
+        <td>461 / 534</td>
+        <td> / </td>
+        <td>0 / 1</td>
+        <td><span class="muted">—</span></td></tr>
+        <tr><td class="gnum">2</td>
+        <td><a href="#g2"><b>Louisville Cardinals</b> 24,
+            Miami Hurricanes 21</a></td>
+        <td>45</td>
+        <td>367 / 334</td>
+        <td> / </td>
+        <td>1 / 4</td>
+        <td><span class="flag">TURNOVER CHAOS</span></td></tr>
+        <tr><td class="gnum">3</td>
+        <td><a href="#g3"><b>California Golden Bears</b> 21,
+            North Carolina Tar Heels 18</a></td>
+        <td>39</td>
+        <td>294 / 287</td>
+        <td> / </td>
+        <td>0 / 3</td>
+        <td><span class="muted">—</span></td></tr>
+        <tr><td class="gnum">4</td>
+        <td><a href="#g4"><b>Minnesota Golden Gophers</b> 24,
+            Nebraska Cornhuskers 6</a></td>
+        <td>30</td>
+        <td>339 / 213</td>
+        <td> / </td>
+        <td>0 / 0</td>
+        <td><span class="muted">—</span></td></tr>
+</table>
+<div class="foot">
+  Flags mark box-score disagreements worth a look, not bets. SCORE &gt; YARDS means the
+  scoreboard outran the offense — usually turnovers or special teams, and it tends to regress.
+  YARDS &gt; SCORE is the reverse. Check against your own ratings before acting.
+</div>
+<a id="g1"></a>
+    <div class="game">
+      <div class="game-head">
+        Utah State Aggies 30 &nbsp;—&nbsp; San José State Spartans 25
+        
+      </div>
+      <table class="teamstats">
+        <tr><th></th><th>TOT YDS</th><th>PASS</th><th>RUSH</th><th>PLAYS</th><th>Y/P</th>
+            <th>1ST</th><th>3RD DN</th><th>TO</th><th>PEN</th><th>TOP</th></tr>
+        <tr><td class='tl'>Utah State Aggies</td><td>461</td><td>331</td><td>130</td><td></td><td></td><td>19</td><td>5-16</td><td>0</td><td>6-65</td><td>29:47</td></tr><tr><td class='tl'>San José State Spartans</td><td>534</td><td>340</td><td>194</td><td></td><td></td><td>23</td><td>9-17</td><td>1</td><td>8-65</td><td>30:13</td></tr>
+      </table>
+      <table class="cols"><tr>
+        <td class="side">
+          <div class="side-head">Utah State Aggies
+            <span class="score">30</span>
+          </div>
+          
+      <div class="cat">
+        <div class="cat-title">Passing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>C/ATT</th><th>YDS</th><th>AVG</th><th>TD</th><th>INT</th><th>QBR</th></tr>
+          <tr><td class="pname">Bryson Barnes <span class="jsy">#16</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Anthony Garcia <span class="jsy">#10</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Rushing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>CAR</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Bryson Barnes <span class="jsy">#16</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Anthony Garcia <span class="jsy">#10</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Miles Davis <span class="jsy">#2</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Javen Jacobs <span class="jsy">#8</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Brady Boyd <span class="jsy">#5</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Noah White <span class="jsy">#23</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Braden Pegan <span class="jsy">#11</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Receiving</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>REC</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Bryson Barnes <span class="jsy">#16</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Anthony Garcia <span class="jsy">#10</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Javen Jacobs <span class="jsy">#8</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Brady Boyd <span class="jsy">#5</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Braden Pegan <span class="jsy">#11</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Broc Lane <span class="jsy">#87</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Josh Sterzer <span class="jsy">#83</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Fumbles</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FUM</th><th>LOST</th><th>REC</th></tr>
+          <tr><td class="pname">Bronson Olevao Jr. <span class="jsy">#14</span></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Defense</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>TOT</th><th>SOLO</th><th>SACKS</th><th>TFL</th><th>PD</th><th>TD</th></tr>
+          <tr><td class="pname">Bronson Olevao Jr. <span class="jsy">#14</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Brevin Hamblin <span class="jsy">#4</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">John Miller <span class="jsy">#20</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">D'Angelo Mayes <span class="jsy">#15</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Carson Tujague <span class="jsy">#28</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Bryson Taylor <span class="jsy">#11</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Ike Larsen <span class="jsy">#</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Mataira Brown <span class="jsy">#17</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Chris Joe <span class="jsy">#25</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Gabriel Iniguez Jr. <span class="jsy">#10</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Tyree Morris <span class="jsy">#9</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Noah Avinger <span class="jsy">#1</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Tevita Tuha <span class="jsy">#55</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Bo Maile <span class="jsy">#44</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kick Returns</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>LONG</th><th>TD</th></tr>
+          <tr><td class="pname">Miles Davis <span class="jsy">#2</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punt Returns</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>LONG</th><th>TD</th></tr>
+          <tr><td class="pname">Kahanu Davis <span class="jsy">#7</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kicking</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FG</th><th>PCT</th><th>LONG</th><th>XP</th><th>PTS</th></tr>
+          <tr><td class="pname">Tanner Rinker <span class="jsy">#14</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punting</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>TB</th><th>IN20</th><th>LONG</th></tr>
+          <tr><td class="pname">Landon Rehkow <span class="jsy">#16</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+        </td>
+        <td class="side">
+          <div class="side-head">San José State Spartans
+            <span class="score">25</span>
+          </div>
+          
+      <div class="cat">
+        <div class="cat-title">Passing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>C/ATT</th><th>YDS</th><th>AVG</th><th>TD</th><th>INT</th><th>QBR</th></tr>
+          <tr><td class="pname">Walker Eget <span class="jsy">#5</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname"> Team <span class="jsy">#</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Rushing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>CAR</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Walker Eget <span class="jsy">#5</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Steve Chavez-Soto <span class="jsy">#15</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Lamar Radcliffe <span class="jsy">#2</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Receiving</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>REC</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Steve Chavez-Soto <span class="jsy">#15</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Lamar Radcliffe <span class="jsy">#2</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Leland Smith <span class="jsy">#1</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Kyri Shoels <span class="jsy">#4</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Matthew Coleman <span class="jsy">#14</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Danny Scudero <span class="jsy">#10</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Cooper Hoch <span class="jsy">#13</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Jackson Canaan <span class="jsy">#85</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Fumbles</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FUM</th><th>LOST</th><th>REC</th></tr>
+          <tr><td class="pname">Walker Eget <span class="jsy">#5</span></td><td></td><td></td><td></td></tr><tr><td class="pname">Kyri Shoels <span class="jsy">#4</span></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Defense</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>TOT</th><th>SOLO</th><th>SACKS</th><th>TFL</th><th>PD</th><th>TD</th></tr>
+          <tr><td class="pname">Walker Eget <span class="jsy">#5</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jaylen Thomas <span class="jsy">#29</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Taniela Latu <span class="jsy">#4</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jordan Pollard <span class="jsy">#1</span></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr><tr><td class="pname">Vili Taufatofua <span class="jsy">#45</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jalen Bainer <span class="jsy">#15</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Quincy Likio <span class="jsy">#91</span></td><td></td><td></td><td>0.5</td><td></td><td></td><td></td></tr><tr><td class="pname">Noah McNeal-Franklin <span class="jsy">#9</span></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr><tr><td class="pname">Gafa Faga <span class="jsy">#50</span></td><td></td><td></td><td>0.5</td><td></td><td></td><td></td></tr><tr><td class="pname">Jalen Apalit-Williams <span class="jsy">#7</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Solomone Langi <span class="jsy">#51</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Ethan Powell <span class="jsy">#26</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Larry Turner-Gooden <span class="jsy">#3</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Caleb Presley <span class="jsy">#0</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Justin Stearns <span class="jsy">#57</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Isiah Revis <span class="jsy">#20</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jireh Moe <span class="jsy">#90</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Nate Lewis <span class="jsy">#99</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Noa Siaosi <span class="jsy">#92</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jase Nix <span class="jsy">#19</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Nassir Pitters <span class="jsy">#38</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td>3</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kick Returns</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>LONG</th><th>TD</th></tr>
+          <tr><td class="pname">Jahari Johnson <span class="jsy">#0</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kicking</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FG</th><th>PCT</th><th>LONG</th><th>XP</th><th>PTS</th></tr>
+          <tr><td class="pname">Denis Lynch <span class="jsy">#48</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Mathias Brown <span class="jsy">#99</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punting</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>TB</th><th>IN20</th><th>LONG</th></tr>
+          <tr><td class="pname">Trent Carrizosa <span class="jsy">#49</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+        </td></tr></table>
+    </div><a id="g2"></a>
+    <div class="game">
+      <div class="game-head">
+        Louisville Cardinals 24 &nbsp;—&nbsp; Miami Hurricanes 21
+        
+      </div>
+      <table class="teamstats">
+        <tr><th></th><th>TOT YDS</th><th>PASS</th><th>RUSH</th><th>PLAYS</th><th>Y/P</th>
+            <th>1ST</th><th>3RD DN</th><th>TO</th><th>PEN</th><th>TOP</th></tr>
+        <tr><td class='tl'>Louisville Cardinals</td><td>367</td><td>248</td><td>119</td><td></td><td></td><td>21</td><td>5-14</td><td>1</td><td>6-64</td><td>31:16</td></tr><tr><td class='tl'>Miami Hurricanes</td><td>334</td><td>271</td><td>63</td><td></td><td></td><td>15</td><td>5-12</td><td>4</td><td>9-67</td><td>28:44</td></tr>
+      </table>
+      <table class="cols"><tr>
+        <td class="side">
+          <div class="side-head">Louisville Cardinals
+            <span class="score">24</span>
+          </div>
+          
+      <div class="cat">
+        <div class="cat-title">Passing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>C/ATT</th><th>YDS</th><th>AVG</th><th>TD</th><th>INT</th><th>QBR</th></tr>
+          <tr><td class="pname">Miller Moss <span class="jsy">#7</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Rushing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>CAR</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Miller Moss <span class="jsy">#7</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Isaac Brown <span class="jsy">#1</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Deuce Adams <span class="jsy">#13</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Keyjuan Brown <span class="jsy">#22</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">David Chapeau <span class="jsy">#93</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Caullin Lacy <span class="jsy">#5</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname"> Team <span class="jsy">#</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Receiving</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>REC</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Isaac Brown <span class="jsy">#1</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Keyjuan Brown <span class="jsy">#22</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Caullin Lacy <span class="jsy">#5</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Chris Bell <span class="jsy">#0</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Dacari Collins <span class="jsy">#3</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Nate Kurisky <span class="jsy">#85</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">TreyShun Hurry <span class="jsy">#2</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Fumbles</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FUM</th><th>LOST</th><th>REC</th></tr>
+          <tr><td class="pname">Isaac Brown <span class="jsy">#1</span></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Defense</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>TOT</th><th>SOLO</th><th>SACKS</th><th>TFL</th><th>PD</th><th>TD</th></tr>
+          <tr><td class="pname">Caullin Lacy <span class="jsy">#5</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">TJ Quinn <span class="jsy">#34</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">D'Angelo Hutchinson <span class="jsy">#21</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jordan Guerad <span class="jsy">#99</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Tayon Holloway <span class="jsy">#25</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">JoJo Evans Jr. <span class="jsy">#27</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Rene Konga <span class="jsy">#90</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Antonio Watts <span class="jsy">#9</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jabari Mack <span class="jsy">#4</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">T.J. Capers <span class="jsy">#11</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Clev Lubin <span class="jsy">#50</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Kalib Perry <span class="jsy">#12</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Corey Gordon <span class="jsy">#24</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Wesley Bailey <span class="jsy">#23</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Justin Agu <span class="jsy">#13</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Justin Beadles <span class="jsy">#19</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Denzel Lowry <span class="jsy">#45</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">AJ Green <span class="jsy">#17</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jerry Lawson <span class="jsy">#95</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Braxton Jennings <span class="jsy">#46</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Interceptions</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>INT</th><th>YDS</th><th>TD</th></tr>
+          <tr><td class="pname">JoJo Evans Jr. <span class="jsy">#27</span></td><td></td><td></td><td></td></tr><tr><td class="pname">Antonio Watts <span class="jsy">#9</span></td><td></td><td></td><td></td></tr><tr><td class="pname">Jabari Mack <span class="jsy">#4</span></td><td></td><td></td><td></td></tr><tr><td class="pname">T.J. Capers <span class="jsy">#11</span></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punt Returns</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>LONG</th><th>TD</th></tr>
+          <tr><td class="pname">Caullin Lacy <span class="jsy">#5</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kicking</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FG</th><th>PCT</th><th>LONG</th><th>XP</th><th>PTS</th></tr>
+          <tr><td class="pname">Cooper Ranvier <span class="jsy">#36</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punting</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>TB</th><th>IN20</th><th>LONG</th></tr>
+          <tr><td class="pname">David Chapeau <span class="jsy">#93</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Carter Schwartz <span class="jsy">#39</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+        </td>
+        <td class="side">
+          <div class="side-head">Miami Hurricanes
+            <span class="score">21</span>
+          </div>
+          
+      <div class="cat">
+        <div class="cat-title">Passing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>C/ATT</th><th>YDS</th><th>AVG</th><th>TD</th><th>INT</th><th>QBR</th></tr>
+          <tr><td class="pname">Carson Beck <span class="jsy">#11</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Rushing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>CAR</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Carson Beck <span class="jsy">#11</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Mark Fletcher Jr. <span class="jsy">#4</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Jordan Lyle <span class="jsy">#2</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Malachi Toney <span class="jsy">#10</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">CharMar Brown <span class="jsy">#6</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname"> Team <span class="jsy">#</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Receiving</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>REC</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Jordan Lyle <span class="jsy">#2</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Malachi Toney <span class="jsy">#10</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">CharMar Brown <span class="jsy">#6</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">CJ Daniels <span class="jsy">#7</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Keelan Marion <span class="jsy">#0</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Alex Bauman <span class="jsy">#87</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Elija Lofton <span class="jsy">#9</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Fumbles</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FUM</th><th>LOST</th><th>REC</th></tr>
+          <tr><td class="pname">Jordan Lyle <span class="jsy">#2</span></td><td></td><td></td><td></td></tr><tr><td class="pname">Zechariah Poyser <span class="jsy">#7</span></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Defense</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>TOT</th><th>SOLO</th><th>SACKS</th><th>TFL</th><th>PD</th><th>TD</th></tr>
+          <tr><td class="pname">Malachi Toney <span class="jsy">#10</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Zechariah Poyser <span class="jsy">#7</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Keionte Scott <span class="jsy">#0</span></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr><tr><td class="pname">Mohamed Toure <span class="jsy">#1</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Wesley Bissainthe <span class="jsy">#31</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Akheem Mesidor <span class="jsy">#3</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Romanas Frederique Jr. <span class="jsy">#29</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Ahmad Moten Sr. <span class="jsy">#99</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">David Blay Jr. <span class="jsy">#11</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jakobe Thomas <span class="jsy">#8</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Xavier Lucas <span class="jsy">#6</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Armondo Blount <span class="jsy">#18</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Chase Smith <span class="jsy">#41</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Popo Aguirre <span class="jsy">#10</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Rueben Bain Jr. <span class="jsy">#4</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Damari Brown <span class="jsy">#2</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Ethan O'Connor <span class="jsy">#24</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Adam Booker <span class="jsy">#46</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Bryce Fitzgerald <span class="jsy">#13</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kick Returns</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>LONG</th><th>TD</th></tr>
+          <tr><td class="pname">Keelan Marion <span class="jsy">#0</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kicking</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FG</th><th>PCT</th><th>LONG</th><th>XP</th><th>PTS</th></tr>
+          <tr><td class="pname">Carter Davis <span class="jsy">#38</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punting</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>TB</th><th>IN20</th><th>LONG</th></tr>
+          <tr><td class="pname">Dylan Joyce <span class="jsy">#94</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+        </td></tr></table>
+    </div><a id="g3"></a>
+    <div class="game">
+      <div class="game-head">
+        California Golden Bears 21 &nbsp;—&nbsp; North Carolina Tar Heels 18
+        
+      </div>
+      <table class="teamstats">
+        <tr><th></th><th>TOT YDS</th><th>PASS</th><th>RUSH</th><th>PLAYS</th><th>Y/P</th>
+            <th>1ST</th><th>3RD DN</th><th>TO</th><th>PEN</th><th>TOP</th></tr>
+        <tr><td class='tl'>California Golden Bears</td><td>294</td><td>214</td><td>80</td><td></td><td></td><td>19</td><td>6-16</td><td>0</td><td>9-79</td><td>28:50</td></tr><tr><td class='tl'>North Carolina Tar Heels</td><td>287</td><td>167</td><td>120</td><td></td><td></td><td>18</td><td>5-14</td><td>3</td><td>4-46</td><td>31:10</td></tr>
+      </table>
+      <table class="cols"><tr>
+        <td class="side">
+          <div class="side-head">California Golden Bears
+            <span class="score">21</span>
+          </div>
+          
+      <div class="cat">
+        <div class="cat-title">Passing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>C/ATT</th><th>YDS</th><th>AVG</th><th>TD</th><th>INT</th><th>QBR</th></tr>
+          <tr><td class="pname">Jaron-Keawe Sagapolutele <span class="jsy">#3</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Devin Brown <span class="jsy">#13</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Rushing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>CAR</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Jaron-Keawe Sagapolutele <span class="jsy">#3</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Kendrick Raphael <span class="jsy">#1</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">LJ Johnson Jr. <span class="jsy">#11</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Jacob De Jesus <span class="jsy">#21</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Receiving</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>REC</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Kendrick Raphael <span class="jsy">#1</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">LJ Johnson Jr. <span class="jsy">#11</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Jacob De Jesus <span class="jsy">#21</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Jordan King <span class="jsy">#4</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Quaron Adams <span class="jsy">#18</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Mark Hamper <span class="jsy">#15</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Mason Mini <span class="jsy">#85</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Fumbles</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FUM</th><th>LOST</th><th>REC</th></tr>
+          <tr><td class="pname">Jaron-Keawe Sagapolutele <span class="jsy">#3</span></td><td></td><td></td><td></td></tr><tr><td class="pname">Jacob De Jesus <span class="jsy">#21</span></td><td></td><td></td><td></td></tr><tr><td class="pname">Cam Sidney <span class="jsy">#20</span></td><td></td><td></td><td></td></tr><tr><td class="pname">Brent Austin <span class="jsy">#4</span></td><td></td><td></td><td></td></tr><tr><td class="pname">Dru Polidore Jr. <span class="jsy">#2</span></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Defense</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>TOT</th><th>SOLO</th><th>SACKS</th><th>TFL</th><th>PD</th><th>TD</th></tr>
+          <tr><td class="pname">Cam Sidney <span class="jsy">#20</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Brent Austin <span class="jsy">#4</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Dru Polidore Jr. <span class="jsy">#2</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Cade Uluave <span class="jsy">#0</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Luke Ferrelli <span class="jsy">#41</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Aidan Keanaaina <span class="jsy">#47</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Aiden Manutai <span class="jsy">#14</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jayden Wayne <span class="jsy">#10</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Chris Victor <span class="jsy">#16</span></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr><tr><td class="pname">T.J. Bollers <span class="jsy">#88</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Hezekiah Masses <span class="jsy">#5</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Ja'ir Smith <span class="jsy">#6</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jasiah Wagoner <span class="jsy">#8</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">TJ Bush Jr. <span class="jsy">#3</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Rino Monteforte <span class="jsy">#39</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Khamani Hudson <span class="jsy">#25</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Derek Wilkins <span class="jsy">#96</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Harrison Taggart <span class="jsy">#7</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Michael Luckhurst <span class="jsy">#16</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Anthony League <span class="jsy">#25</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Zae Smith <span class="jsy">#99</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kick Returns</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>LONG</th><th>TD</th></tr>
+          <tr><td class="pname">Jacob De Jesus <span class="jsy">#21</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punt Returns</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>LONG</th><th>TD</th></tr>
+          <tr><td class="pname">Jacob De Jesus <span class="jsy">#21</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Kyion Grayes <span class="jsy">#9</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kicking</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FG</th><th>PCT</th><th>LONG</th><th>XP</th><th>PTS</th></tr>
+          <tr><td class="pname">Chase Meyer <span class="jsy">#91</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punting</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>TB</th><th>IN20</th><th>LONG</th></tr>
+          <tr><td class="pname">Michael Kern <span class="jsy">#9</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Brook Honore Jr. <span class="jsy">#40</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+        </td>
+        <td class="side">
+          <div class="side-head">North Carolina Tar Heels
+            <span class="score">18</span>
+          </div>
+          
+      <div class="cat">
+        <div class="cat-title">Passing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>C/ATT</th><th>YDS</th><th>AVG</th><th>TD</th><th>INT</th><th>QBR</th></tr>
+          <tr><td class="pname">Gio Lopez <span class="jsy">#7</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Rushing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>CAR</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Gio Lopez <span class="jsy">#7</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Benjamin Hall <span class="jsy">#28</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Davion Gause <span class="jsy">#21</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Demon June <span class="jsy">#12</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Receiving</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>REC</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Gio Lopez <span class="jsy">#7</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Benjamin Hall <span class="jsy">#28</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Davion Gause <span class="jsy">#21</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Kobe Paysour <span class="jsy">#8</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Shanard Clower <span class="jsy">#85</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Jordan Shipp <span class="jsy">#1</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Nathan Leacock <span class="jsy">#15</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Connor Cox <span class="jsy">#18</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Chris Culliver <span class="jsy">#3</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Fumbles</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FUM</th><th>LOST</th><th>REC</th></tr>
+          <tr><td class="pname">Davion Gause <span class="jsy">#21</span></td><td></td><td></td><td></td></tr><tr><td class="pname">Shanard Clower <span class="jsy">#85</span></td><td></td><td></td><td></td></tr><tr><td class="pname">Nathan Leacock <span class="jsy">#15</span></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Defense</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>TOT</th><th>SOLO</th><th>SACKS</th><th>TFL</th><th>PD</th><th>TD</th></tr>
+          <tr><td class="pname">Will Hardy <span class="jsy">#31</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Khmori House <span class="jsy">#7</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Kaleb Cost <span class="jsy">#21</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jaiden Patterson <span class="jsy">#18</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">D'Antre Robinson <span class="jsy">#6</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Andrew Simpson <span class="jsy">#2</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Leroy Jackson <span class="jsy">#91</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">CJ Mims <span class="jsy">#92</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Gavin Gibson <span class="jsy">#5</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Tyler Thompson <span class="jsy">#40</span></td><td></td><td></td><td>2</td><td></td><td></td><td></td></tr><tr><td class="pname">Greg Smith <span class="jsy">#12</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Isaiah Johnson <span class="jsy">#94</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Caleb Hood <span class="jsy">#4</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Malcolm Ziglar <span class="jsy">#3</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Smith Vilbert <span class="jsy">#8</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Mikai Gbayor <span class="jsy">#4</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Coleman Bryson <span class="jsy">#16</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Joseph Mupoyi <span class="jsy">#25</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Melkart Abou Jaoude <span class="jsy">#9</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Daniel Anderson <span class="jsy">#95</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Timir Hickman-Collins <span class="jsy">#54</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Austin Alexander <span class="jsy">#47</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Xavier Lewis <span class="jsy">#90</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td>2</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kick Returns</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>LONG</th><th>TD</th></tr>
+          <tr><td class="pname">Jaylen McGill <span class="jsy">#27</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punt Returns</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>LONG</th><th>TD</th></tr>
+          <tr><td class="pname">Will Hardy <span class="jsy">#31</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kicking</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FG</th><th>PCT</th><th>LONG</th><th>XP</th><th>PTS</th></tr>
+          <tr><td class="pname">Rece Verhoff <span class="jsy">#90</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punting</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>TB</th><th>IN20</th><th>LONG</th></tr>
+          <tr><td class="pname">Tom Maginness <span class="jsy">#96</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+        </td></tr></table>
+    </div><a id="g4"></a>
+    <div class="game">
+      <div class="game-head">
+        Minnesota Golden Gophers 24 &nbsp;—&nbsp; Nebraska Cornhuskers 6
+        
+      </div>
+      <table class="teamstats">
+        <tr><th></th><th>TOT YDS</th><th>PASS</th><th>RUSH</th><th>PLAYS</th><th>Y/P</th>
+            <th>1ST</th><th>3RD DN</th><th>TO</th><th>PEN</th><th>TOP</th></tr>
+        <tr><td class='tl'>Minnesota Golden Gophers</td><td>339</td><td>153</td><td>186</td><td></td><td></td><td>18</td><td>5-12</td><td>0</td><td>3-30</td><td>31:59</td></tr><tr><td class='tl'>Nebraska Cornhuskers</td><td>213</td><td>177</td><td>36</td><td></td><td></td><td>13</td><td>3-11</td><td>0</td><td>6-65</td><td>28:01</td></tr>
+      </table>
+      <table class="cols"><tr>
+        <td class="side">
+          <div class="side-head">Minnesota Golden Gophers
+            <span class="score">24</span>
+          </div>
+          
+      <div class="cat">
+        <div class="cat-title">Passing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>C/ATT</th><th>YDS</th><th>AVG</th><th>TD</th><th>INT</th><th>QBR</th></tr>
+          <tr><td class="pname">Drake Lindsey <span class="jsy">#5</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Rushing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>CAR</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Drake Lindsey <span class="jsy">#5</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Darius Taylor <span class="jsy">#1</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Fame Ijeboi <span class="jsy">#3</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Cam Davis <span class="jsy">#23</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Receiving</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>REC</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Darius Taylor <span class="jsy">#1</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Jalen Smith <span class="jsy">#8</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Le'Meke Brockington <span class="jsy">#0</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Malachi Coleman <span class="jsy">#16</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Jameson Geers <span class="jsy">#86</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Logan Loya <span class="jsy">#17</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Javon Tracy <span class="jsy">#11</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Drew Biber <span class="jsy">#87</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Fumbles</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FUM</th><th>LOST</th><th>REC</th></tr>
+          <tr><td class="pname"> Team <span class="jsy">#</span></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Defense</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>TOT</th><th>SOLO</th><th>SACKS</th><th>TFL</th><th>PD</th><th>TD</th></tr>
+          <tr><td class="pname">Za'Quan Bryan <span class="jsy">#4</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Karter Menz <span class="jsy">#11</span></td><td></td><td></td><td>2.5</td><td></td><td></td><td></td></tr><tr><td class="pname">Maverick Baranowski <span class="jsy">#6</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Devon Williams <span class="jsy">#9</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Anthony Smith <span class="jsy">#0</span></td><td></td><td></td><td>2.5</td><td></td><td></td><td></td></tr><tr><td class="pname">Kerry Brown <span class="jsy">#14</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Rushawn Lawrence <span class="jsy">#16</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jaxon Howard <span class="jsy">#1</span></td><td></td><td></td><td>2</td><td></td><td></td><td></td></tr><tr><td class="pname">Koi Perich <span class="jsy">#3</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jai'Onte' McMillan <span class="jsy">#24</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Deven Eastern <span class="jsy">#91</span></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr><tr><td class="pname">Matt Kingsbury <span class="jsy">#49</span></td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr><tr><td class="pname">Derik LeCaptain <span class="jsy">#35</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Darius Green <span class="jsy">#12</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Aidan Gousby <span class="jsy">#7</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Mason Carrier <span class="jsy">#48</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Simon Seidl <span class="jsy">#27</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jaylen Bowden <span class="jsy">#5</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jalen Logan-Redding <span class="jsy">#97</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Emmanuel Karmo <span class="jsy">#2</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td>9</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kick Returns</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>LONG</th><th>TD</th></tr>
+          <tr><td class="pname">Cam Davis <span class="jsy">#23</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Koi Perich <span class="jsy">#3</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punt Returns</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>LONG</th><th>TD</th></tr>
+          <tr><td class="pname">Koi Perich <span class="jsy">#3</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kicking</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FG</th><th>PCT</th><th>LONG</th><th>XP</th><th>PTS</th></tr>
+          <tr><td class="pname">Brady Denaburg <span class="jsy">#92</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punting</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>TB</th><th>IN20</th><th>LONG</th></tr>
+          <tr><td class="pname">Tom Weston <span class="jsy">#42</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+        </td>
+        <td class="side">
+          <div class="side-head">Nebraska Cornhuskers
+            <span class="score">6</span>
+          </div>
+          
+      <div class="cat">
+        <div class="cat-title">Passing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>C/ATT</th><th>YDS</th><th>AVG</th><th>TD</th><th>INT</th><th>QBR</th></tr>
+          <tr><td class="pname">Dylan Raiola <span class="jsy">#15</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Rushing</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>CAR</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Dylan Raiola <span class="jsy">#15</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Emmett Johnson <span class="jsy">#21</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Isaiah Mozee <span class="jsy">#22</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Receiving</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>REC</th><th>YDS</th><th>AVG</th><th>TD</th><th>LONG</th></tr>
+          <tr><td class="pname">Emmett Johnson <span class="jsy">#21</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Luke Lindenmeyer <span class="jsy">#44</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Quinn Clark <span class="jsy">#89</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Nyziah Hunter <span class="jsy">#13</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Cortez Mills Jr. <span class="jsy">#19</span></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="pname">Jacory Barney Jr. <span class="jsy">#17</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Defense</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>TOT</th><th>SOLO</th><th>SACKS</th><th>TFL</th><th>PD</th><th>TD</th></tr>
+          <tr><td class="pname">Javin Wright <span class="jsy">#33</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Marques Watson-Trent <span class="jsy">#26</span></td><td></td><td></td><td>0.5</td><td></td><td></td><td></td></tr><tr><td class="pname">DeShon Singleton <span class="jsy">#8</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Keona Davis <span class="jsy">#97</span></td><td></td><td></td><td>0.5</td><td></td><td></td><td></td></tr><tr><td class="pname">Rex Guthrie <span class="jsy">#21</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Ceyair Wright <span class="jsy">#15</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Williams Nwaneri <span class="jsy">#96</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Donovan Jones <span class="jsy">#37</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Elijah Jeudy <span class="jsy">#16</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Dasan McCullough <span class="jsy">#22</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jamir Conn <span class="jsy">#13</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Marques Buford Jr. <span class="jsy">#3</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Cameron Lenhardt <span class="jsy">#11</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Kevin Gallic <span class="jsy">#46</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Gabe Moore <span class="jsy">#95</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Jeremiah Charles <span class="jsy">#25</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Andrew Marshall <span class="jsy">#10</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Kade Pietrzak <span class="jsy">#73</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr><tr><td class="pname">Dylan Rogers <span class="jsy">#52</span></td><td></td><td></td><td>0</td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td>1</td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kick Returns</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>LONG</th><th>TD</th></tr>
+          <tr><td class="pname">Kenneth Williams <span class="jsy">#25</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punt Returns</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>LONG</th><th>TD</th></tr>
+          <tr><td class="pname">Jacory Barney Jr. <span class="jsy">#17</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Kicking</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>FG</th><th>PCT</th><th>LONG</th><th>XP</th><th>PTS</th></tr>
+          <tr><td class="pname">Kyle Cunanan <span class="jsy">#91</span></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+      <div class="cat">
+        <div class="cat-title">Punting</div>
+        <table class="box">
+          <tr><th class="pcol"></th><th>NO</th><th>YDS</th><th>AVG</th><th>TB</th><th>IN20</th><th>LONG</th></tr>
+          <tr><td class="pname">Archie Wilson <span class="jsy">#83</span></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr class="tot"><td class="pname">TEAM</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+      </div>
+        </td></tr></table>
+    </div>
+</body></html>
