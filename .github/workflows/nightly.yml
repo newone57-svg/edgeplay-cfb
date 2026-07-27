@@ -1,0 +1,45 @@
+name: EdgePlay CFB Nightly Pull
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date to pull (YYYY-MM-DD). Leave blank for yesterday."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pandas requests
+
+      - name: Run the pull
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            python cfb_pull.py --date "${{ github.event.inputs.date }}"
+          else
+            python cfb_pull.py
+          fi
+
+      - name: Commit the results
+        run: |
+          git config user.name  "EdgePlay Bot"
+          git config user.email "actions@github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "CFB pull $(date -u +%Y-%m-%d)"
+          git push
